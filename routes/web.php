@@ -22,3 +22,7 @@ Route::get('helloworld', function () {
 Route::get('mo', function () {
     return view('mo');
 });
+
+Route::get('about', function () {
+    return view('about');
+});
